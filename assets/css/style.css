@@ -204,6 +204,12 @@ h6 {
   max-height: 100px;
 }
 
+@media (max-width: 500px) {
+  #header .logo img {
+    max-height: 70px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1019,6 +1025,15 @@ section {
   font-weight: 700;
   color: white;
   transition: 0.3s;
+}
+
+@media (max-width: 500px) {
+  .menu .menu-content .menu-content-title {
+    font-size: 12px;
+  }
+  .menu .menu-ingredients {
+    font-size: 10px;
+  }
 }
 
 .menu .menu-content a:hover {
