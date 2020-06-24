@@ -1027,15 +1027,6 @@ section {
   transition: 0.3s;
 }
 
-@media (max-width: 500px) {
-  .menu .menu-content .menu-content-title {
-    font-size: 12px;
-  }
-  .menu .menu-ingredients {
-    font-size: 10px;
-  }
-}
-
 .menu .menu-content a:hover {
   color: #cda45e;
 }
@@ -1055,6 +1046,15 @@ section {
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 500px) {
+  .menu .menu-content .menu-content-title {
+    font-size: 12px;
+  }
+  .menu .menu-ingredients {
+    font-size: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
