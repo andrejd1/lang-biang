@@ -640,6 +640,13 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     height: auto;
   }
+  #hero .btn-menu {
+    margin-top: 15px;
+  }
+  #hero .btn-book {
+    margin-left: 0;
+    margin-top: 15px;
+  }
   #hero .container {
     padding-top: 130px;
     padding-bottom: 60px;
