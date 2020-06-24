@@ -470,6 +470,13 @@ mark,
   content: "\2014\00A0";
 }
 
+.bg-fluid {
+  max-width: 100%;
+  min-height: 280px;
+  background-position:center!important;
+  background-repeat: no-repeat!important;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
