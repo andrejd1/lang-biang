@@ -1720,29 +1720,30 @@
           data-aos="fade-up" data-aos-delay="100">
           <div class="form-row">
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Vaše jméno" required>
+              <input type="text" name="jméno" class="form-control" id="name" placeholder="Vaše jméno" required>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
               <input type="email" class="form-control" name="email" id="email" placeholder="Váš email" required>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Váš telefon" required>
+              <input type="text" class="form-control" name="telefon" id="phone" placeholder="Váš telefon" required>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="date" name="date" class="form-control" id="date" placeholder="Datum" required>
+              <input type="date" name="date" class="form-control" id="datum" placeholder="Datum" required>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Čas" required>
+              <input type="text" class="form-control" name="čas" id="time" placeholder="Čas" required>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="number" class="form-control" name="people" id="people" placeholder="Počet lidí" required">
+              <input type="number" class="form-control" name="počet lidí" id="people" placeholder="Počet lidí"
+                required">
             </div>
           </div>
           <input type="hidden" name="_subject" value="Nová rezervace">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_autoresponse" value="Děkujeme za rezervaci! Vaše rezervace je potvrzena.">
           <div class="form-group">
-            <textarea class="form-control" name="message" rows="5" placeholder="Vaše zpráva (nepovinné)"></textarea>
+            <textarea class="form-control" name="zpráva" rows="5" placeholder="Vaše zpráva (nepovinné)"></textarea>
           </div>
           <div class="text-center"><button type="submit">Zarezervovat</button></div>
         </form>
@@ -2043,30 +2044,17 @@
             <form action="https://formsubmit.co/ngo.andrej@gmail.com" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Vaše Jméno"
-                    data-rule="minlen:3" data-msg="Zadejte prosím alespoň 3 znaky" />
-
+                  <input type="text" name="jméno" class="form-control" id="name" placeholder="Vaše Jméno" required />
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Váš Email"
-                    data-rule="email" data-msg="Zadejte validní email" />
-
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Váš Email" required />
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="_subject" id="subject" placeholder="Předmět"
-                  data-rule="minlen:4" data-msg="Zadejte předmět s alespoň 4 znaky" />
-
+                <input type="text" class="form-control" name="_subject" id="subject" placeholder="Předmět" required />
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="8" data-rule="required"
-                  data-msg="Vyplňte prosím zprávu" placeholder="Zpráva"></textarea>
-
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <textarea class="form-control" name="zpráva" rows="8" placeholder="Zpráva" required></textarea>
               </div>
               <input type="hidden" name="_template" value="table">
               <input type="hidden" name="_autoresponse" value="Děkujeme za zprávu! Ozveme se, jakmile to bude možné.">
