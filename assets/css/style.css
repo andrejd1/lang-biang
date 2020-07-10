@@ -118,6 +118,15 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 574px) {
+  #topbar .contact-info {
+    padding: 0!important;
+  }
+}
+
+/*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
@@ -132,6 +141,7 @@ h6 {
 
 #topbar .contact-info {
   color: white;
+  padding: 15px 0;
 }
 
 #topbar .contact-info i {
@@ -147,7 +157,7 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 0;
+  padding: 15px 0;
   margin: 0;
   color: #cda45e;
 }
