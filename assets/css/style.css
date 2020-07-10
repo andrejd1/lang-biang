@@ -122,7 +122,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 574px) {
   #topbar .contact-info {
-    padding: 0!important;
+    padding: 5px 0!important;
   }
 }
 
@@ -130,7 +130,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  height: 40px;
+  height: 50px;
   font-size: 14px;
   transition: all 0.5s;
 }
@@ -186,7 +186,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
+  top: 50px;
 }
 
 #header.header-scrolled {
