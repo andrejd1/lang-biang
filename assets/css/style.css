@@ -1582,8 +1582,9 @@ section {
 
 .lng-active {
   font-weight: bold;
-  color: #cda45e!important;
-  cursor: unset;
+  background-color: #cda45e!important;
+  padding: 4px;
+  border-radius: 9px;
 }
 
 .contact .info .open-hours p {
